@@ -11,9 +11,9 @@ import com.skoti.learning.dto.UserResponseNew;
 public interface UserClient {
 
 	@GetMapping("/users")
-	public List<UserResponseNew> getUsers();
+	public List<UserResponseNew> getUsersFromService();
 	
 	@GetMapping("/getPort")
-	public String getPort();
+	public String getPortsFromService();
 	
 }
