@@ -1,1 +1,1 @@
-spring:  cloud:    config:      uri: http://localhost:8888  profiles:    active: defaultmanagement:  endpoints:    web:     exposure:      include: "*"
+spring:  cloud:    config:      uri: http://localhost:8888  profiles:    active: default  application:    name: greeting-clientmanagement:  endpoints:    web:     exposure:      include: "*"
